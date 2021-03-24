@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="69,-0.5 69,-19.5 170,-19.5 170,-0.5 69,-0.5"/>
 <text text-anchor="middle" x="119.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">exponential_search</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../da/d6c/exponential__search_8c.html#afdc582ea4bc37250337705d1121f7557" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a" target="_top" xlink:title="Function: binary_search.">
 <polygon fill="white" stroke="black" points="206,-0.5 206,-19.5 283,-19.5 283,-0.5 206,-0.5"/>
 <text text-anchor="middle" x="244.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">binary_search</text>
 </a>

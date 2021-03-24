@@ -98,29 +98,30 @@ $(document).ready(function(){initNavTree('da/d6c/exponential__search_8c.html','.
 </div><!--header-->
 <div class="contents">
 
-<p>@brief <a href="https://github.com/TheAlgorithms/Algorithms-Explanation/blob/master/en/Search%20Algorithms/Exponential%20Search.md">Exponential Search</a>  
+<p><a href="https://github.com/TheAlgorithms/Algorithms-Explanation/blob/master/en/Search%20Algorithms/Exponential%20Search.md">Exponential Search</a>  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
+<code>#include &lt;inttypes.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for exponential_search.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d31/exponential__search_8c__incl.svg" width="159" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d31/exponential__search_8c__incl.svg" width="184" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:aa5e9be47d76a4e1865914bcb7a2a7479"><td class="memItemLeft" align="right" valign="top"><a id="aa5e9be47d76a4e1865914bcb7a2a7479"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/exponential__search_8c.html#aa5e9be47d76a4e1865914bcb7a2a7479">ELEMENT</a>&#160;&#160;&#160;-10</td></tr>
-<tr class="memdesc:aa5e9be47d76a4e1865914bcb7a2a7479"><td class="mdescLeft">&#160;</td><td class="mdescRight">for assert <br /></td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ELEMENT</b>&#160;&#160;&#160;-10</td></tr>
 <tr class="separator:aa5e9be47d76a4e1865914bcb7a2a7479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afdc582ea4bc37250337705d1121f7557"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/exponential__search_8c.html#afdc582ea4bc37250337705d1121f7557">binary_search</a> (const int *arr, const int l_index, const int r_index, const int n)</td></tr>
-<tr class="separator:afdc582ea4bc37250337705d1121f7557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd2a0ccb243bc6e07b5b793bf3abdbd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a> (const int *arr, const int length, const int n)</td></tr>
-<tr class="separator:affd2a0ccb243bc6e07b5b793bf3abdbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae97ef76c065e91c188f1f8c8076869a"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a">binary_search</a> (const int64_t *arr, const uint16_t l_index, const uint16_t r_index, const int64_t n)</td></tr>
+<tr class="memdesc:aae97ef76c065e91c188f1f8c8076869a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function: binary_search.  <a href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a">More...</a><br /></td></tr>
+<tr class="separator:aae97ef76c065e91c188f1f8c8076869a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d4de0907b9601a376febf50955bacd"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a> (const int64_t *arr, const uint16_t length, const int64_t n)</td></tr>
+<tr class="separator:a82d4de0907b9601a376febf50955bacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8dca7b867074164d5f45b0f3851269d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a> ()</td></tr>
 <tr class="memdesc:aa8dca7b867074164d5f45b0f3851269d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Self-test implementations.  <a href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d">More...</a><br /></td></tr>
 <tr class="separator:aa8dca7b867074164d5f45b0f3851269d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,37 +130,37 @@ Functions</h2></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>@brief <a href="https://github.com/TheAlgorithms/Algorithms-Explanation/blob/master/en/Search%20Algorithms/Exponential%20Search.md">Exponential Search</a> </p>
+<div class="textblock"><p><a href="https://github.com/TheAlgorithms/Algorithms-Explanation/blob/master/en/Search%20Algorithms/Exponential%20Search.md">Exponential Search</a> </p>
 <dl class="section author"><dt>Author</dt><dd><a href="https://github.com/faridevnz">Alessio Farinelli</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="afdc582ea4bc37250337705d1121f7557"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdc582ea4bc37250337705d1121f7557">&#9670;&nbsp;</a></span>binary_search()</h2>
+<a id="aae97ef76c065e91c188f1f8c8076869a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae97ef76c065e91c188f1f8c8076869a">&#9670;&nbsp;</a></span>binary_search()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int binary_search </td>
+          <td class="memname">int64_t binary_search </td>
           <td>(</td>
-          <td class="paramtype">const int *&#160;</td>
+          <td class="paramtype">const int64_t *&#160;</td>
           <td class="paramname"><em>arr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const uint16_t&#160;</td>
           <td class="paramname"><em>l_index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const uint16_t&#160;</td>
           <td class="paramname"><em>r_index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const int64_t&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -169,8 +170,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Function: binary_search. </p>
+<p>recursive function that search the given element in the array using the Binary Search algorithm </p>
 <h2><a class="anchor" id="autotoc_md68"></a>
-Function: binary_search</h2>
+&lt;a href="https://github.com/TheAlgorithms/Algorithms-Explanation/blob/master/en/Search%20Algorithms/Binary%20Search.md"&gt;Binary Search&lt;/a&gt;</h2>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">arr</td><td>array where search the element </td></tr>
@@ -180,45 +184,45 @@ Function: binary_search</h2>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: the index of the element (n) in the array (arr) </dd>
+<dl class="section return"><dt>Returns</dt><dd>the index of the element (n) in the array (arr) </dd>
 <dd>
-: -1 if the n element wasn't found </dd></dl>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// calculate the middle index of the array</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">int</span> middle_index = l_index + ( r_index - l_index ) / 2;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// base cases</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> ( l_index &gt; r_index ) { <span class="keywordflow">return</span> -1; }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> ( arr[middle_index] == n ) { <span class="keywordflow">return</span> middle_index; }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// recursion</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">if</span> ( arr[middle_index] &gt; n ) { <span class="keywordflow">return</span> <a class="code" href="../../da/d6c/exponential__search_8c.html#afdc582ea4bc37250337705d1121f7557">binary_search</a>(arr, l_index, middle_index-1, n); } <span class="comment">// left</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d6c/exponential__search_8c.html#afdc582ea4bc37250337705d1121f7557">binary_search</a>(arr, middle_index+1, r_index, n); <span class="comment">// right</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
-<div class="ttc" id="aexponential__search_8c_html_afdc582ea4bc37250337705d1121f7557"><div class="ttname"><a href="../../da/d6c/exponential__search_8c.html#afdc582ea4bc37250337705d1121f7557">binary_search</a></div><div class="ttdeci">int binary_search(const int *arr, const int l_index, const int r_index, const int n)</div><div class="ttdef"><b>Definition:</b> exponential_search.c:47</div></div>
+-1 if the n element wasn't found </dd></dl>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// calculate the middle index of the array</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    uint16_t middle_index = l_index + ( r_index - l_index ) / 2;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// base cases</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span> ( l_index &gt; r_index ) { <span class="keywordflow">return</span> -1; }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">if</span> ( arr[middle_index] == n ) { <span class="keywordflow">return</span> middle_index; }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// recursion</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">if</span> ( arr[middle_index] &gt; n ) { <span class="keywordflow">return</span> <a class="code" href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a">binary_search</a>(arr, l_index, middle_index-1, n); } <span class="comment">// left</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a">binary_search</a>(arr, middle_index+1, r_index, n); <span class="comment">// right</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="ttc" id="aexponential__search_8c_html_aae97ef76c065e91c188f1f8c8076869a"><div class="ttname"><a href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a">binary_search</a></div><div class="ttdeci">int64_t binary_search(const int64_t *arr, const uint16_t l_index, const uint16_t r_index, const int64_t n)</div><div class="ttdoc">Function: binary_search.</div><div class="ttdef"><b>Definition:</b> exponential_search.c:52</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="affd2a0ccb243bc6e07b5b793bf3abdbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affd2a0ccb243bc6e07b5b793bf3abdbd">&#9670;&nbsp;</a></span>exponential_search()</h2>
+<a id="a82d4de0907b9601a376febf50955bacd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82d4de0907b9601a376febf50955bacd">&#9670;&nbsp;</a></span>exponential_search()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int exponential_search </td>
+          <td class="memname">int64_t exponential_search </td>
           <td>(</td>
-          <td class="paramtype">const int *&#160;</td>
+          <td class="paramtype">const int64_t *&#160;</td>
           <td class="paramname"><em>arr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const uint16_t&#160;</td>
           <td class="paramname"><em>length</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const int64_t&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -238,23 +242,24 @@ Function: exponential_search</h2>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: the index of the element (n) in the array (arr) </dd>
+<dl class="section return"><dt>Returns</dt><dd>the index of the element (n) in the array (arr) </dd>
 <dd>
-: -1 if the element wasn't found </dd></dl>
-<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">// find the upperbound</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> upper_bound = 1;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">while</span> ( upper_bound &lt;= length &amp;&amp; arr[upper_bound] &lt; n ) { upper_bound = upper_bound * 2; }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="comment">// calculate the range ( between lower_boud and upper_bound )</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> lower_bound = upper_bound/2;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span> ( upper_bound &gt; length ) { upper_bound = length; }</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// apply the binary search in the range</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d6c/exponential__search_8c.html#afdc582ea4bc37250337705d1121f7557">binary_search</a>(arr, lower_bound, upper_bound, n);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+-1 if the element wasn't found </dd></dl>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">if</span> ( length == 0 ) { <span class="keywordflow">return</span> -1; }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// find the upperbound</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    uint32_t upper_bound = 1;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">while</span> ( upper_bound &lt;= length &amp;&amp; arr[upper_bound] &lt; n ) { upper_bound = upper_bound * 2; }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">// calculate the range ( between lower_boud and upper_bound )</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    uint16_t lower_bound = upper_bound/2;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> ( upper_bound &gt; length ) { upper_bound = length; }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// apply the binary search in the range</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a">binary_search</a>(arr, lower_bound, upper_bound, n);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d6c/exponential__search_8c_affd2a0ccb243bc6e07b5b793bf3abdbd_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d6c/exponential__search_8c_a82d4de0907b9601a376febf50955bacd_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -278,11 +283,11 @@ Here is the call graph for this function:</div>
 
 <p>Main function. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
-<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// run self-test implementations</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
-<div class="ttc" id="aexponential__search_8c_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> exponential_search.c:73</div></div>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// run self-test implementations</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="ttc" id="aexponential__search_8c_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> exponential_search.c:78</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -318,33 +323,33 @@ Here is the call graph for this function:</div>
 
 <p>Self-test implementations. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// empty array</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">int</span> arr_empty[] = {};</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_empty, 0, 10) == -1);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// elent not found</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">int</span> arr_found[] = {1, 2, 3};</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_found, 3, 10) == -1);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">// element found in an array of length 1</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">int</span> arr_one[] = {1};</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_found, 1, 1) == 0);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="comment">// find the first element in an array of length 2</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> arr_first_2[] = {1, 2};</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_first_2, 2, 1) == 0);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="comment">// find the last element in an array of length 2</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">int</span> arr_last_2[] = {1, 2};</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_last_2, 2, 2) == 1);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="comment">// find the first element in an array of length n</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">int</span> arr_first_n[] = {-1, 2, 4, 6, 8};</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_first_n, 5, -1) == 0);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="comment">// find the last element in an array of length n</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">int</span> arr_last_n[] = {-1, 2, 4, 6, 8};</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_last_n, 5, 8) == 4);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// find an element in an array of length n</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">int</span> arr_middle[] = {-1, 2, 4, 6, 8};</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a>(arr_middle, 5, 6) == 3);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
-<div class="ttc" id="aexponential__search_8c_html_affd2a0ccb243bc6e07b5b793bf3abdbd"><div class="ttname"><a href="../../da/d6c/exponential__search_8c.html#affd2a0ccb243bc6e07b5b793bf3abdbd">exponential_search</a></div><div class="ttdeci">int exponential_search(const int *arr, const int length, const int n)</div><div class="ttdef"><b>Definition:</b> exponential_search.c:24</div></div>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// empty array</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    int64_t arr_empty[] = {};</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_empty, 0, 10) == -1);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">// elent not found</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    int64_t arr_found[] = {1, 2, 3};</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_found, 3, 10) == -1);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="comment">// element found in an array of length 1</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    int64_t arr_one[] = {1};</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_found, 1, 1) == 0);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">// find the first element in an array of length 2</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    int64_t arr_first_2[] = {1, 2};</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_first_2, 2, 1) == 0);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="comment">// find the last element in an array of length 2</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    int64_t arr_last_2[] = {1, 2};</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_last_2, 2, 2) == 1);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="comment">// find the first element in an array of length n</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    int64_t arr_first_n[] = {-1, 2, 4, 6, 8};</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_first_n, 5, -1) == 0);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">// find the last element in an array of length n</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    int64_t arr_last_n[] = {-1, 2, 4, 6, 8};</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_last_n, 5, 8) == 4);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="comment">// find an element in an array of length n</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    int64_t arr_middle[] = {-1, 2, 4, 6, 8};</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    assert(<a class="code" href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a>(arr_middle, 5, 6) == 3);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
+<div class="ttc" id="aexponential__search_8c_html_a82d4de0907b9601a376febf50955bacd"><div class="ttname"><a href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd">exponential_search</a></div><div class="ttdeci">int64_t exponential_search(const int64_t *arr, const uint16_t length, const int64_t n)</div><div class="ttdef"><b>Definition:</b> exponential_search.c:25</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
