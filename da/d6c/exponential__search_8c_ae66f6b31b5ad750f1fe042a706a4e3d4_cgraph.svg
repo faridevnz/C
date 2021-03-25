@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Main function.">
+<g id="a_node1"><a xlink:title="Main function that run the test.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-19.5 38,-19.5 38,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="19" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d" target="_top" xlink:title="Self&#45;test implementations.">
+<g id="a_node2"><a xlink:href="../../da/d6c/exponential__search_8c.html#aa8dca7b867074164d5f45b0f3851269d" target="_top" xlink:title="used to run the self&#45;test implementations">
 <polygon fill="white" stroke="black" points="74,-0.5 74,-19.5 107,-19.5 107,-0.5 74,-0.5"/>
 <text text-anchor="middle" x="90.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">test</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../da/d6c/exponential__search_8c.html#a82d4de0907b9601a376febf50955bacd" target="_top" xlink:title="used to perform the exponential search over the given array">
 <polygon fill="white" stroke="black" points="143,-0.5 143,-19.5 244,-19.5 244,-0.5 143,-0.5"/>
 <text text-anchor="middle" x="193.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">exponential_search</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a" target="_top" xlink:title="Function: binary_search.">
+<g id="a_node4"><a xlink:href="../../da/d6c/exponential__search_8c.html#aae97ef76c065e91c188f1f8c8076869a" target="_top" xlink:title="used to perform the binary search over the given array">
 <polygon fill="white" stroke="black" points="280,-0.5 280,-19.5 357,-19.5 357,-0.5 280,-0.5"/>
 <text text-anchor="middle" x="318.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">binary_search</text>
 </a>
